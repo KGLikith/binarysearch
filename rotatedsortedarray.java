@@ -32,7 +32,7 @@ public class rotatedsortedarray {
             }else{
                start=mid;
         }}
-        return start;
+        return -1;
     }
         static int binary ( int arr[], int target, int start, int end){
             while (start <= end) {
